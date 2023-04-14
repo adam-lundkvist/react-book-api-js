@@ -1,0 +1,50 @@
+#root {
+  width: 100%;
+}
+
+.search-bar {
+  margin: 6rem 0 4rem 0;
+}
+
+.book-card {
+  padding: 0px;
+  min-height: 650px;
+  position: relative;
+  margin-bottom: 50px;
+  transition: bottom 0.1s ease 0s;
+  bottom: 0;
+}
+
+.book-card:hover {
+  bottom: 10px;
+}
+
+.card-img {
+  height: 400px;
+  margin-bottom: 10px;
+}
+
+.card-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.selected-book {
+  margin-top: 2rem;
+}
+
+.selected-book-img {
+  width: 30%;
+  float: right;
+  padding: 20px;
+}
+
+.spinner {
+  margin-right: 10px;
+}
+
+.sumbit-btn {
+  display: flex;
+  align-items: center;
+}
